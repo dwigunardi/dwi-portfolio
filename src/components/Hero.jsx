@@ -15,7 +15,7 @@ const Hero = () => {
       </div>
       <div>
         <h1 className={`${styles.heroHeadText} text-white`}>
-          Hi, I'm <span className='text-[#915EFF]'>Dwi G M</span>
+          Hi, I'm <span className='text-[#915EFF]'>Dwi</span>
         </h1>
         <p className={`${styles.heroSubText} mt-2 text-white-100`}>
           I develop 3D visuals, user <br className='hidden sm:block' />
@@ -23,10 +23,10 @@ const Hero = () => {
         </p>
       </div>
     </div>
-
+    
     <ComputersCanvas />
 
-    <div className='absolute flex items-center justify-center w-full xs:bottom-10 bottom-32'>
+    <div className='absolute flex items-center justify-center w-full xs:bottom-10 bottom-20'>
       <a href='#about'>
         <div className='w-[35px] h-[64px] rounded-3xl border-4 border-violet-500 flex justify-center items-start p-2'>
           <motion.div
